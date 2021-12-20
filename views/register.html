@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="css/register.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="main-header">
+        <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" width="200">
+        <nav>
+           <input type="search" name="Busqueda" placeholder="Buscar producto, marca">
+           <button class="buttonsearch"><i class="fas fa-search"></i>   
+        </nav>
+         
+        <p>
+            <i class="fas fa-hand-holding-usd"></i>En cuotas y sin tarjeta de credito
+        </p>
+
+        <nav class="main-navbar">
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li>
+            </ul>
+       
+            <ul>
+                <li><a href="/register">Crea tu cuenta <i class="far fa-id-card"></i></i></a></li>
+                <li><a href="/login">Ingresa <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Mis Compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+        <div 
+        class="burger-menu"><i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="banner"><img src="/images/img-home-banner.jpg" alt ="Banner"</div>
+   
+    <main class="main-container">
+
+        
+    <h1>Registro de Usuario</h1>
+    <form>
+        <h4>Nombre y Apellido</h4>
+        <label for="nombre">Nombre:</label>
+        <input type ="text" id="nombre" name="nombre" placeholder="Maria Sol" required><br>
+
+        <label for="apellido">Apellido:</label>
+        <input type ="text" id="apellido" name="apellido" placeholder="Fernandez"><br>
+
+        <h4>Nombre de Usuario</h4>
+        <label for="nombre de Usuario">Nombre de Usuario:</label>
+        <input type ="text" id="nombre de Usuario" name="nombre de Usuario" placeholder="mariiasol"><br>
+
+        <h4>Fecha de nacimiento</h4>
+        <label for="Fecha de nacimiento">Fecha de nacimiento:</label>
+        <input type ="date" id="fecha de nacimiento" name="fecha de nacimiento" placeholder="1993-04-05"><br>
+   
+        <h4>Domicilio</h4>
+        <label for="domicilio">Domicilio:</label>
+        <input type ="text" id="domicilio" name="domicilio" placeholder="Beruruti Nº 3800, Piso 8"><br>
+
+        <h4>Perfil de Usuario</h4>
+        <label for="perfil usuario">Comprar:</label>
+        <input type ="radio" value="Comprar" id="perfilusuario1" <br>
+
+        <label for="perfil usuario">Perfil del usuario:</label>
+        <input type ="radio" value="Vender" id="perfilusuario2" <br>
+
+        <h4>Catergoria de interes</h4>
+        <input type="checkbox" value="Electro">Electro<br>
+        <input type="checkbox" value="moda">Moda<br>
+        <input type="checkbox" value="hogar">Hogar<br>
+        <input type="checkbox" value="jugueteria">Jugueteria<br>
+        <input type="checkbox" value="vida-sana">Vida Sana<br><br>
+
+        <label for="contraseña"> Contraseña</label>
+          <input type="password" name="password" id="contraseña">
+            
+        <div>
+      <button type="submit">Enviar</button>
+         <button type="reset">Borrar</button>      
+        </div>  
+    
+</body>
+</html>

@@ -1,0 +1,204 @@
+@import url("normalize.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+
+
+.main-header {
+    background-color: #eac926;
+    padding: 20px;
+    margin: auto;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+}
+
+.main-navbar{
+    display: inline-block;   
+    transition: color .5ms;
+    }
+    
+    .main-navbar{
+        color: #1259c3;
+    }
+
+.banner img{
+        width: 100%;
+        background-color: #ebebeb;
+        margin-top: 145px;
+     }
+
+.burger-menu {
+    margin: auto;
+    text-align: center;
+    border-radius: 30%;
+    padding: 6px;
+    background-color: #03264C;
+    color: white;
+    width: 25px;
+    font-size: 30px;
+  }
+
+.buttonsearch  {
+background-color:gray;
+}
+.buttonsearch:hover{
+    background-color:#0022AA;
+}
+ 
+
+
+.product-container{
+    font-size: 24xp;
+    color: black;
+    background-color: white;
+    margin: 15px;
+ 
+}
+
+.precio{
+    font-size: 18xp;
+    color:black;
+}
+
+.descuentos{
+    font-size: 16px;
+    color: #39b54a;
+}
+.descripciones{
+    font-size: 16xp;
+    color: black;
+}
+
+.banner{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.main-container{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    
+}
+.main-container section h2{
+    display: block;
+    padding-top: 15px;
+    width: 90%;
+    color: #666;
+    font-size: 24px;
+}
+
+.main-container .product-container .caja-chiquita{
+    display: block;
+    border-top: 1px solid #ebebeb;
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px 15px;
+}
+
+
+.caja-chiquita{
+    position: relative;
+}
+.caja{
+    background: white;
+    margin: auto;
+    width: 90%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  
+}
+
+.product-container{
+    display: flex;
+    width: 45%;
+}
+
+.articulo-description{
+    border-top: #EBEBEB solid 1px;
+    text-align: left;
+}
+
+footer{
+    text-align: center;
+}
+
+
+.icons-footer{
+text-align: center;
+color:#666;
+margin-bottom: 10px;
+}
+
+.icons-footer .fa-credit-card{
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+}
+
+.icons-footer .fa-gift{
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+}
+
+.icons-footer .fa-user-shield{
+    font-size: 2em;
+    color: #1259c3;
+}
+
+
+.despription-footer{
+    color:#666;
+}
+
+.srl{
+    text-align: left;
+    font-size: 12px;
+    color:#666;
+}
+
+
+ul, ol { 
+    list-style:none;
+    padding:0%;
+    margin:0;
+    }
+    
+@media(min-width: 830px){
+    .main-navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .main-navbar ul{
+        display: flex;
+    }
+
+    .main-navbar li{
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    .burger-menu{
+        display:none;
+    }
+    .caja{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;    
+    }
+    
+}
+
+
