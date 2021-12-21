@@ -9,15 +9,20 @@
 </head>
 <body>
     <header class="main-header">
-        <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" width="200">
-        <nav>
-           <input type="search" name="Busqueda" placeholder="Buscar producto, marca">
-           <button class="buttonsearch"><i class="fas fa-search"></i>   
-        </nav>
-         
-        <p>
-            <i class="fas fa-hand-holding-usd"></i>En cuotas y sin tarjeta de credito
-        </p>
+        <div class="caja-superior">
+            <img src="/images/logo-mercado-liebre.svg">
+            <div  class="busqueda">
+                <form  action="/search" method="get" target="_blank">
+                    <p>
+                        <input type="search" name="busquedam" placeholder="Buscar productos, marcas">
+                        <button> <i class="fas fa-search"></i></button>
+                    </p>
+                </form>
+            </div>
+            <h1 class="txt1">
+                <a href="#"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</a>
+            </h1>
+        </div>
 
         <nav class="main-navbar">
             <ul>
